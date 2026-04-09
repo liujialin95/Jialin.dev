@@ -2216,8 +2216,61 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## timeline - (_site-layout.scss) 
+/* -------------------------------------------------------------------
+ * ## certifications - (_site-layout.scss)
+ * ------------------------------------------------------------------- */
+
+.cert-card {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    padding: 2.4rem;
+    margin-bottom: 2.4rem;
+    border: 1px solid #E5DED6;
+    border-radius: 4px;
+    text-decoration: none;
+    color: inherit;
+    background: #FFFFFF;
+    -webkit-transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cert-card:hover,
+.cert-card:focus {
+    border-color: #6B4F4F;
+    box-shadow: 0 4px 16px rgba(107, 79, 79, 0.1);
+    color: inherit;
+}
+
+.cert-badge {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.cert-card__info {
+    flex: 1;
+}
+
+.cert-card__title {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #111111;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+}
+
+.cert-card__meta {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.2rem;
+    color: #6B4F4F;
+    margin: 0;
+}
+
+
+/* -------------------------------------------------------------------
+ * ## timeline - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
 .timeline {
