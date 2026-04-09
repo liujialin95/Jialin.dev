@@ -1660,7 +1660,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #BFA08A;
+    color: #E5DED6;
 }
 
 
@@ -3306,7 +3306,7 @@ footer {
     font-size: 14px;
     padding: 6.6rem 0 4.2rem;
     text-align: center;
-    color: rgba(44, 44, 44, 0.5);
+    color: rgba(44, 44, 44, 0.75);
 }
 
 footer a, footer a:visited {
